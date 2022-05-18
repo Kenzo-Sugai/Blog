@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="estilo.css" rel="stylesheet">
+    <title>Title</title>
+</head>
+<body>
+    <form action="/criapost" method="get">
+        <input class="post" type="submit" value="Criar post"/>
+    </form>
+    <div>
+        <%for (let i = 0; i < posts.length; i++){%>
+        <div class="posts">
+            <p class="poststitulo"><%=posts[i].dbtitulo%></p>
+            <p class="postresumo"><%=posts[i].dbresumo%></p>
+            <p class="postresumo"><%=posts[i].dbconteudo%></p>
+        </div>
+        <%}%>
+    </div>
+</body>
+</html>

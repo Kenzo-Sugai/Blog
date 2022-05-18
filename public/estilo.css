@@ -1,0 +1,51 @@
+body {
+    background-color: #b1baba;
+    font-size: 20pt;
+}
+
+.posts {
+    background-color: #ffffff;
+    color: black;
+    border: 1px black solid;
+    border-radius: 8px;
+    margin: 20px 10px;
+
+}
+
+.poststitulo {
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.postresumo {
+    font-size: 10pt;
+    font-family: "Arial";
+    padding: 0 5px;
+}
+
+.post {
+    color: black;
+    text-align: center;
+    position: relative;
+    right: 0;
+    left: 610px;
+}
+
+.text {
+    position: center;
+    width: 250px;
+}
+
+.formtext {
+    position: relative;
+    text-align: center;
+}
+
+.formtext h1 {
+    position: relative;
+    right: 90px;
+    font-size: 15pt;
+    top: 20px;
+    font-weight: unset;
+}
